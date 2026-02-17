@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #6f7478;
+    background-color: #27292a;
 }
 
 button a {
@@ -25,5 +25,10 @@ p {
 #sub {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
-    color: #555;
+    color: #070707;
+}
+
+.centrar-imagen {
+  display: block;
+  margin: auto;
 }
