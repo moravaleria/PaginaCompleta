@@ -1,5 +1,13 @@
 footer {
-    background-color: #fbc6f8;
+    background-color: #6f7478;
     padding: 20px 0;
     margin-top: 40px;
+}
+
+body {
+    background-color: #d8dbe0;
+}
+
+nav {
+    background-color: #6f7478;
 }
