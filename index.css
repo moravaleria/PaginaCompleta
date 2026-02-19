@@ -89,6 +89,9 @@ p {
     transform: scale(1.05);
 }
 
+
+
+
 .texto-voley {
     position: absolute;
     bottom: 0;
@@ -98,4 +101,29 @@ p {
     text-align: center;
     padding: 6px;
     font-size: 14px;
+}
+
+.tabla-deportiva {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+}
+
+.tabla-deportiva th,
+.tabla-deportiva td {
+    background: transparent !important;
+    border: none;
+    padding: 12px;
+}
+
+.tabla-deportiva tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.tabla-deportiva thead {
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 18px;
 }
