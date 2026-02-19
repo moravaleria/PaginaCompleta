@@ -22,6 +22,7 @@ p {
     font-size: 18px;
     color: #333;
 }
+
 #sub {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
@@ -29,36 +30,72 @@ p {
 }
 
 .centrar-imagen {
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .accordion-item {
-        border: none;
-        margin-bottom: 12px;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
+    border: none;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 
-    .accordion-button {
-        background: #f8f9fa;
-        font-weight: 600;
-        padding: 18px;
-        transition: all 0.3s ease;
-    }
+.accordion-button {
+    background: #f8f9fa;
+    font-weight: 600;
+    padding: 18px;
+    transition: all 0.3s ease;
+}
 
-    .accordion-button:not(.collapsed) {
-        background: #0d6efd;
-        color: white;
-    }
+.accordion-button:not(.collapsed) {
+    background: #0d6efd;
+    color: white;
+}
 
-    .accordion-button:focus {
-        box-shadow: none;
-    }
+.accordion-button:focus {
+    box-shadow: none;
+}
 
-    .accordion-body {
-        background: white;
-        padding: 18px;
-        line-height: 1.6;
-    }
+.accordion-body {
+    background: white;
+    padding: 18px;
+    line-height: 1.6;
+}
+
+.imgVoleibol {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-voley {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.galeria-voley img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galeria-voley:hover img {
+    transform: scale(1.05);
+}
+
+.texto-voley {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}
